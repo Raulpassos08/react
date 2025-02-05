@@ -1,4 +1,5 @@
 import './App.css'
+import { Array } from './Array';
 
 function App() {
   const catchal = {
@@ -41,6 +42,8 @@ function App() {
       </p>
       <p>Total: R$ {total}</p>
       <p>{total > 10000 && "Você está gastando muito"}</p>
+    
+    <Array />
     </div>
   )
 }
